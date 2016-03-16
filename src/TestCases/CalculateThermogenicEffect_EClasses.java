@@ -37,6 +37,13 @@ public class CalculateThermogenicEffect_EClasses {
 	}
 
 	@Test 
+	/*
+	 * Caso de prueba: <CP-CEValido-01>
+	 * Parametro de entrada analizado Fichero en JSON correcto
+	 * Descripción del valor de entrada Fichero en JSON correcto
+	 * Técnica de prueba <Clase de equivalencia>
+	 * RESULTADO ESPERADO: Calculo de calorias debido a efecto termogenico alimentos
+	 */
 	public void CPCEValido01() {
 		float result=0F;
 		try {
@@ -464,7 +471,7 @@ public class CalculateThermogenicEffect_EClasses {
 	/*
 	 * Caso de prueba: <CP-ValorLimite-32>
 	 * Parametro de entrada analizado<Peso>
-	 * Descripción del valor de entrada <Peso:-0.10>
+	 * Descripción del valor de entrada <Peso:-0.0>
 	 * Técnica de prueba <Valor Limite>
 	 * RESULTADO ESPERADO: Error (excepción)
 	 */
