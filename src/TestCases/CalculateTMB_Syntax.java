@@ -1,6 +1,9 @@
 package TestCases;
 
 import static org.junit.Assert.*;
+import hlmc.*;
+import hlmc.exceptions.*;
+import hlmc.logic.*;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -9,6 +12,9 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class CalculateTMB_Syntax {
+	
+	HealthyLifeMetricsCalculator miCalculator ;
+	String FileLocation=" ";
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
@@ -20,6 +26,7 @@ public class CalculateTMB_Syntax {
 
 	@Before
 	public void setUp() throws Exception {
+		miCalculator = new Calculator();
 	}
 
 	@After
