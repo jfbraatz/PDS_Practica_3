@@ -389,7 +389,7 @@ public class CalculateWeightVariance_EClasses {
 	/*
 	 * VALORES LÍMITE
 	 */
-	@Test (expected=HLMCException.class)
+	@Test 
 	/*
 	 * Caso de prueba: <CP-ValorLimite-27>
 	 * Parametro de entrada analizado<Edad>
@@ -435,7 +435,7 @@ public class CalculateWeightVariance_EClasses {
 		{
 		miCalculator.CalculateWeightVariance("RF05/Fichero027");		
 		}
-	@Test (expected=HLMCException.class)
+	@Test 
 	/*
 	 * Caso de prueba: <CP-ValorLimite-30>
 	 * Parametro de entrada analizado<Peso>
@@ -480,7 +480,7 @@ public class CalculateWeightVariance_EClasses {
 		{
 		miCalculator.CalculateWeightVariance("RF05/Fichero030");		
 		}
-	@Test (expected=HLMCException.class)
+	@Test 
 	/*
 	 * Caso de prueba: <CP-ValorLimite-33>
 	 * Parametro de entrada analizado<Altura>
