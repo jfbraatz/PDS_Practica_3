@@ -186,7 +186,7 @@ public class CalculateEnergyIncome_Syntax {
 	/*
 	 * Caso de prueba: <CP-RF04-Invalido012>
 	 * Parametro de entrada analizado<Entrada>
-	 * Descripción del valor de entrada <>
+	 * Descripción del valor de entrada <Repiticion del nodo hoja 1>
 	 * Técnica de prueba <Analisis sintactico>
 	 * RESULTADO ESPERADO: Error (excepción)
 	 */
@@ -194,6 +194,135 @@ public class CalculateEnergyIncome_Syntax {
 		throws HLMCException
 		{
 		miCalculator.CalculateEnergyIncome("RF04/Fichero012");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF04-Invalido013>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repiticion del nodo hoja 2>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF04Invalido13() 
+		throws HLMCException
+		{
+		miCalculator.CalculateEnergyIncome("RF04/Fichero013");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF04-Invalido014>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repiticion del nodo hoja 3>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF04Invalido14() 
+		throws HLMCException
+		{
+		miCalculator.CalculateEnergyIncome("RF04/Fichero014");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF04-Invalido015>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repiticion del nodo hoja 4>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF04Invalido15() 
+		throws HLMCException
+		{
+		miCalculator.CalculateEnergyIncome("RF04/Fichero015");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF04-Invalido016>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repiticion del nodo hoja 5>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF04Invalido16() 
+		throws HLMCException
+		{
+		miCalculator.CalculateEnergyIncome("RF04/Fichero016");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF04-Invalido017>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repiticion del nodo hoja 6>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF04Invalido17() 
+		throws HLMCException
+		{
+		miCalculator.CalculateEnergyIncome("RF04/Fichero017");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF04-Invalido018>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repiticion del nodo hoja 7>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF04Invalido18() 
+		throws HLMCException
+		{
+		miCalculator.CalculateEnergyIncome("RF04/Fichero018");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF04-Invalido019>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repiticion del nodo hoja 8>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF04Invalido19() 
+		throws HLMCException
+		{
+		miCalculator.CalculateEnergyIncome("RF04/Fichero019");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF04-Invalido020>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repiticion del nodo hoja 9>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF04Invalido20() 
+		throws HLMCException
+		{
+		miCalculator.CalculateEnergyIncome("RF04/Fichero020");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF04-Invalido021>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repiticion del nodo hoja 10>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF04Invalido21() 
+		throws HLMCException
+		{
+		miCalculator.CalculateEnergyIncome("RF04/Fichero021");		
+		}
+	/*
+	 * Caso de prueba: <CP-RF04-Invalido022>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Adicción al nodo hoja 10>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF04Invalido22() 
+		throws HLMCException
+		{
+		miCalculator.CalculateEnergyIncome("RF04/Fichero022");		
 		}
 
 
