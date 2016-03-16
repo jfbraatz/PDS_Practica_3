@@ -348,4 +348,38 @@ public class CalculateThermogenicEffect_EClasses {
 		{
 		miCalculator.CalculateThermogenicEffect("RF03/Fichero024");		
 		}
+	/*
+	 * Caso de prueba: <CP-SalidaCorrecta-25>
+	 * Parametro analizado<HLMC-RF-03-S1>
+	 * Descripción del valor de salida <float result>
+	 * Técnica de prueba <Clase de equivalencia>
+	 * RESULTADO ESPERADO: float result
+	 */
+	public void CPSalidaCorrecta25() {
+	float result=0F;
+	try {
+		result=miCalculator.CalculateThermogenicEffect("RF03/Fichero001");
+	} catch (HLMCException e) {
+		e.printStackTrace();
+	}
+	float expectedresult=85.0F; //valor aleatrorio porque sabemos que todos los 
+	//metodos devuelven 0.0
+	assertEquals(result,expectedresult,0.0);	
+	}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-FicheroVacio-24>
+	 * Parametro de entrada analizado<Altura>
+	 * Descripción del valor de entrada <Altura:1.78>
+	 * Técnica de prueba <Clase de equivalencia>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPSalidaIncorrecta26() 
+		throws HLMCException
+		{
+		miCalculator.CalculateThermogenicEffect("RF03/Fichero024");		
+		}
+	/*
+	 * VALORES LÍMITE
+	 */
 }
