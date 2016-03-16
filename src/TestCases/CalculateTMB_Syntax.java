@@ -41,7 +41,7 @@ public class CalculateTMB_Syntax {
 	 * RESULTADO ESPERADO: Valor decimal resultado del calculo de la TMB
 	 */
 	@Test
-	public void CPRF01E1Valido1() {
+	public void CPRF01Valido1() {
 		float result=0F;
 		try {
 			result=miCalculator.CalculateTMB("RF01/Fichero001");
@@ -59,7 +59,7 @@ public class CalculateTMB_Syntax {
 	 * RESULTADO ESPERADO: Valor decimal resultado del calculo de la TMB
 	 */
 	@Test
-	public void CPRF01E1Valido2() {
+	public void CPRF01Valido2() {
 		float result=0F;
 		try {
 			result=miCalculator.CalculateTMB("RF01/Fichero002");
@@ -78,7 +78,7 @@ public class CalculateTMB_Syntax {
 	 * RESULTADO ESPERADO: Valor decimal resultado del calculo de la TMB
 	 */
 	@Test
-	public void CPRF01E1Valido3() {
+	public void CPRF01Valido3() {
 		float result=0F;
 		try {
 			result=miCalculator.CalculateTMB("RF01/Fichero003");
@@ -97,7 +97,7 @@ public class CalculateTMB_Syntax {
 	 * RESULTADO ESPERADO: Valor decimal resultado del calculo de la TMB
 	 */
 	@Test
-	public void CPRF01E1Valido4() {
+	public void CPRF01Valido4() {
 		float result=0F;
 		try {
 			result=miCalculator.CalculateTMB("RF01/Fichero004");
@@ -548,5 +548,330 @@ public class CalculateTMB_Syntax {
 		throws HLMCException
 		{
 		miCalculator.CalculateTMB("RF01/Fichero038");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido035>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 6>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido35() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero039");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido036>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 7>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido36() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero040");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido037>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 8>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido37() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero041");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido038>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 9>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido38() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero042");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido039>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 10>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido39() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero043");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido040>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 11>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido40() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero044");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido041>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 12>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido41() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero045");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido042>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 13>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido42() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero046");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido043>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 14>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido43() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero047");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido044>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 15>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido44() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero048");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido045>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 16>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido45() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero049");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido046>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 17>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido46() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero050");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido047>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 18>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido47() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero051");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido048>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 19>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido48() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero052");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido049>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 20>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido49() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero053");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido050>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 21>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido50() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero054");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido051>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 22>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido51() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero055");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido052>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 23>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido52() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero056");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido053>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 24>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido53() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero057");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido054>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 25>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido54() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero058");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido055>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 26>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido55() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero059");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido056>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 27>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido56() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero060");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido057>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 28>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido57() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero061");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido058>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <Repeticion del nodo hoja 29>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido58() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero062");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-RF01-Invalido059>
+	 * Parametro de entrada analizado<Entrada>
+	 * Descripción del valor de entrada <adicion al nodo hoja 1>
+	 * Técnica de prueba <Analisis sintactico>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPRF01Invalido59() 
+		throws HLMCException
+		{
+		miCalculator.CalculateTMB("RF01/Fichero063");		
 		}
 }
