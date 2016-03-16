@@ -382,4 +382,138 @@ public class CalculateThermogenicEffect_EClasses {
 	/*
 	 * VALORES LÍMITE
 	 */
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-ValorLimite-27>
+	 * Parametro de entrada analizado<Edad>
+	 * Descripción del valor de entrada <Edad:0.10>
+	 * Técnica de prueba <Valor Limite>
+	 * RESULTADO ESPERADO: Calculo de calorias debido a efecto termogenico alimentos
+	 */
+	public void CPValorLimite27() {
+		float result=0F;
+		try {
+			result=miCalculator.CalculateThermogenicEffect("RF03/Fichero025");
+		} catch (HLMCException e) {
+			e.printStackTrace();
+		}
+		float expectedresult=85.0F; //valor aleatrorio porque sabemos que todos los 
+		//metodos devuelven 0.0
+		assertEquals(result,expectedresult,0.0);	
+		}
+		
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-ValorLimite-28>
+	 * Parametro de entrada analizado<Edad>
+	 * Descripción del valor de entrada <Edad:0.00>
+	 * Técnica de prueba <Valor Limite>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPValorLimite28() 
+		throws HLMCException
+		{
+		miCalculator.CalculateThermogenicEffect("RF03/Fichero026");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-ValorLimite-29>
+	 * Parametro de entrada analizado<Edad>
+	 * Descripción del valor de entrada <Edad:-0.10>
+	 * Técnica de prueba <Valor Limite>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPValorLimite29() 
+		throws HLMCException
+		{
+		miCalculator.CalculateThermogenicEffect("RF03/Fichero027");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-ValorLimite-30>
+	 * Parametro de entrada analizado<Peso>
+	 * Descripción del valor de entrada <Peso:0.10>
+	 * Técnica de prueba <Valor Limite>
+	 * RESULTADO ESPERADO: Calculo de calorias debido a efecto termogenico alimentos
+	 */
+	public void CPValorLimite30() {
+		float result=0F;
+		try {
+			result=miCalculator.CalculateThermogenicEffect("RF03/Fichero028");
+		} catch (HLMCException e) {
+			e.printStackTrace();
+		}
+		float expectedresult=85.0F; //valor aleatrorio porque sabemos que todos los 
+		//metodos devuelven 0.0
+		assertEquals(result,expectedresult,0.0);	
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-ValorLimite-31>
+	 * Parametro de entrada analizado<Peso>
+	 * Descripción del valor de entrada <Peso:0.00>
+	 * Técnica de prueba <Valor Limite>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPValorLimite31() 
+		throws HLMCException
+		{
+		miCalculator.CalculateThermogenicEffect("RF03/Fichero029");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-ValorLimite-32>
+	 * Parametro de entrada analizado<Peso>
+	 * Descripción del valor de entrada <Peso:-0.10>
+	 * Técnica de prueba <Valor Limite>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPValorLimite32() 
+		throws HLMCException
+		{
+		miCalculator.CalculateThermogenicEffect("RF03/Fichero030");		
+		}
+	@Test (expected=HLMCException.class)
+	/*
+	 * Caso de prueba: <CP-ValorLimite-33>
+	 * Parametro de entrada analizado<Altura>
+	 * Descripción del valor de entrada <Altura:0.10>
+	 * Técnica de prueba <Valor Limite>
+	 * RESULTADO ESPERADO: Calculo de calorias debido a efecto termogenico alimentos
+	 */
+	public void CPValorLimite33() {
+		float result=0F;
+		try {
+			result=miCalculator.CalculateThermogenicEffect("RF03/Fichero031");
+		} catch (HLMCException e) {
+			e.printStackTrace();
+		}
+		float expectedresult=85.0F; //valor aleatrorio porque sabemos que todos los 
+		//metodos devuelven 0.0
+		assertEquals(result,expectedresult,0.0);	
+		}
+	/*
+	 * Caso de prueba: <CP-ValorLimite-34>
+	 * Parametro de entrada analizado<Altura>
+	 * Descripción del valor de entrada <Altura:0.00>
+	 * Técnica de prueba <Valor Limite>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPValorLimite34() 
+		throws HLMCException
+		{
+		miCalculator.CalculateThermogenicEffect("RF03/Fichero032");		
+		}
+	/*
+	 * Caso de prueba: <CP-ValorLimite-35>
+	 * Parametro de entrada analizado<Altura>
+	 * Descripción del valor de entrada <Altura:-0.10>
+	 * Técnica de prueba <Valor Limite>
+	 * RESULTADO ESPERADO: Error (excepción)
+	 */
+	public void CPValorLimite35() 
+		throws HLMCException
+		{
+		miCalculator.CalculateThermogenicEffect("RF03/Fichero033");		
+		}
 }
